@@ -73,6 +73,9 @@ form div input{
     color: rgb(102, 102, 102);
 }
 
+a{
+    text-decoration: none;
+}
 button{
     border: 2px solid transparent;
     border-radius: 8px;
@@ -84,6 +87,7 @@ button{
     width: 80%;
     max-width: 200px;
     cursor: pointer;
+    text-decoration: none;
 
 }
 
