@@ -1,0 +1,62 @@
+/* elementos para borda da pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Bordas arredondas na pagina*/
+}
+
+/* elementos para pagina inteira */
+body{
+    background-color: rgb(177, 161, 138); /* Cor de fundo da pagina */
+    color:rgb(30, 29, 29); /*Cor do texto em geral*/
+    font-family: Arial, Helvetica, sans-serif; /*tippo de fonte */
+}
+
+.header-nav{
+    background-color: rgb(152, 136, 113); /* cor da faixa */
+    color: rgb(10, 9, 9); /* Cor da fonte na faixa */
+    padding: 1em; /*Tamanho da faixa*/
+    border-bottom: 1px solid rgb(185, 171, 150); /* Borda na parte inferior*/
+    transition: box-shadow 0.2s ease; /* garente uma mudança suave quando rolamos a barra */
+}
+
+/* Navbar sticky */
+.header-nav.sticky {
+    position: fixed; /* mantem os elementos fixados na sua posição */
+    top: 0; /* mantem elementos visivel */
+    left: 0; /* mantem elementos visivel */
+    right: 0; /* mantem elementos visivel */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombramento com o movimento */
+    z-index: 1000; /* mantem a barra em cima de navegação */
+  }
+
+.nav-web{
+    max-width: 2500px; /* ajuste da posição dentro do nav */
+    margin: 0 auto; /* alinhamento da posição */
+    display: flex; /* ele torna os elementos dentro do nav flexivel com sua mediada */
+    justify-content: space-between; /* cria espaço entre elementos */
+    align-items: center; /* alinhamento dos elementos */
+    padding: 0 1rem;
+}
+
+.logo a{
+    font-size: 1.8rem; /*tamanho da fonte */
+    color: rgb(14, 13, 13);/* Cor da fonte */
+    text-decoration: none; /* removendo sublinhado */
+}
+
+.nav-list{
+    list-style: none; /* tira personalização do estilo da lista */
+    display: flex;
+    gap: 2.5rem; /* espaçamento entre os elementos da lista */
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 1.2rem; /* tamanmho da fonte */
+}
+
+.nav-list a:hover{
+    color: black;
+}
