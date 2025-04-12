@@ -39,10 +39,10 @@ body{
     padding: 0 1rem;
 }
 
-.logo a{
-    font-size: 1.8rem; /*tamanho da fonte */
-    color: rgb(14, 13, 13);/* Cor da fonte */
-    text-decoration: none; /* removendo sublinhado */
+.logo{
+    width: 140px;
+    height: 130px;
+    border-radius: 7px;
 }
 
 .nav-list{
@@ -53,10 +53,10 @@ body{
 
 .nav-list a{
     text-decoration: none;
-    color: rgb(5, 5, 5);
+    color: #fff;
     font-size: 1.2rem; /* tamanmho da fonte */
 }
 
 .nav-list a:hover{
-    color: black;
+    color:#fff;
 }
