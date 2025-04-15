@@ -13,22 +13,13 @@ body{
 }
 
 .header-nav{
-    background-color: rgb(152, 136, 113); /* cor da faixa */
+    background-color: rgb(62, 42, 31); /* cor da faixa */
+    width: 100%;
     color: rgb(10, 9, 9); /* Cor da fonte na faixa */
-    padding: 1em; /*Tamanho da faixa*/
+    padding: 0.1em; /*Tamanho da faixa*/
     border-bottom: 1px solid rgb(185, 171, 150); /* Borda na parte inferior*/
-    transition: box-shadow 0.2s ease; /* garente uma mudança suave quando rolamos a barra */
 }
 
-/* Navbar sticky */
-.header-nav.sticky {
-    position: fixed; /* mantem os elementos fixados na sua posição */
-    top: 0; /* mantem elementos visivel */
-    left: 0; /* mantem elementos visivel */
-    right: 0; /* mantem elementos visivel */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombramento com o movimento */
-    z-index: 1000; /* mantem a barra em cima de navegação */
-  }
 
 .nav-web{
     max-width: 2500px; /* ajuste da posição dentro do nav */
@@ -36,27 +27,43 @@ body{
     display: flex; /* ele torna os elementos dentro do nav flexivel com sua mediada */
     justify-content: space-between; /* cria espaço entre elementos */
     align-items: center; /* alinhamento dos elementos */
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
+.left {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* espaço entre logo e menu principal */
+  }
 
 .logo{
     width: 140px;
     height: 130px;
-    border-radius: 7px;
+    border-radius: 50%;
+    margin-right: 2em;
 }
 
-.nav-list{
+.nav-list, .list-rigth{
     list-style: none; /* tira personalização do estilo da lista */
     display: flex;
-    gap: 2.5rem; /* espaçamento entre os elementos da lista */
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-list a{
+.nav-list a, .list-rigth a{
     text-decoration: none;
     color: #fff;
-    font-size: 1.2rem; /* tamanmho da fonte */
+    font-size: 1.5rem; /* tamanmho da fonte */
 }
 
 .nav-list a:hover{
     color:#fff;
+}
+
+.sobre{
+    font-size: 50px;
+    color: rgb(62, 42, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 150px;
 }
