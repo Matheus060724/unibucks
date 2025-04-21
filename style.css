@@ -7,8 +7,10 @@
 
 /* elementos para pagina inteira */
 body{
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif; /*tippo de fonte */
 }
+
 
 /* formatação do tamanho e cor do navegador */
 .header-nav{
@@ -63,20 +65,65 @@ body{
 .img1{
     height: auto;
     width: 100%;
+    display: block;
     margin: 0;
     padding: 0;
+    border: none;
 }
 
-/* posicionamento da segund seção */
-.frame2{
-    background-color: #000000;
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows: 100%;
+.frame1, .frame2 {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-/* posicionamento da imagem no frame 2 */
-.meio{
+.frame2 {
+    background-color: #000000; 
+    min-height: 100vh;
     display: flex;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column; /* <<< AGORA EM COLUNA */
+    align-items: center; /* centraliza tudo */
+    justify-content: space-between; /* texto em cima, imagem embaixo */
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%; /* ocupa altura total da frame */
+    padding: 40px 0; /* espaçamento interno */
+    gap: 30px; /* distância entre texto e imagem */
+}
+
+.texto h2 {
+    color: #3b220f;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+  
+.texto p {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.meio {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+
+.meio img {
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
