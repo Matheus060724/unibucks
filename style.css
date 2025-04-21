@@ -7,20 +7,18 @@
 
 /* elementos para pagina inteira */
 body{
-    background-color: rgb(177, 161, 138); /* Cor de fundo da pagina */
-    color:rgb(30, 29, 29); /*Cor do texto em geral*/
     font-family: Arial, Helvetica, sans-serif; /*tippo de fonte */
 }
 
+/* formatação do tamanho e cor do navegador */
 .header-nav{
-    background-color: rgb(62, 42, 31); /* cor da faixa */
+    background-color: #3b220f; /* cor da faixa */
     width: 100%;
     color: rgb(10, 9, 9); /* Cor da fonte na faixa */
     padding: 0.1em; /*Tamanho da faixa*/
-    border-bottom: 1px solid rgb(185, 171, 150); /* Borda na parte inferior*/
 }
 
-
+/* Posicionamento das tags dentro do navegador */
 .nav-web{
     max-width: 2500px; /* ajuste da posição dentro do nav */
     margin: 0 auto; /* alinhamento da posição */
@@ -29,12 +27,15 @@ body{
     align-items: center; /* alinhamento dos elementos */
     padding: 0 2rem;
 }
+
+/* Posicionamento das tags dentro do navegador no lado esquerdo */
 .left {
     display: flex;
     align-items: center;
     gap: 2rem; /* espaço entre logo e menu principal */
   }
 
+/* tamanho da logo */
 .logo{
     width: 140px;
     height: 130px;
@@ -42,6 +43,7 @@ body{
     margin-right: 2em;
 }
 
+/* Posocionamento do texto dentro do navegador */
 .nav-list, .list-rigth{
     list-style: none; /* tira personalização do estilo da lista */
     display: flex;
@@ -50,20 +52,31 @@ body{
     padding: 0;
 }
 
+/*Formatação do texto debtro do nav */
 .nav-list a, .list-rigth a{
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem; /* tamanmho da fonte */
+    font-size: 1.5rem; /* tamanho da fonte */
 }
 
-.nav-list a:hover{
-    color:#fff;
+/* tamanho da imagem dentro da primeira seção */
+.img1{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.sobre{
-    font-size: 50px;
-    color: rgb(62, 42, 31);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 150px;
+/* posicionamento da segund seção */
+.frame2{
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 100%;
+}
+
+/* posicionamento da imagem no frame 2 */
+.meio{
+    display: flex;
+    justify-content: right;
 }
