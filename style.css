@@ -7,7 +7,6 @@
 
 /* elementos para pagina inteira */
 body{
-    color: #fff;
     font-family: Arial, Helvetica, sans-serif; /*tippo de fonte */
 }
 
@@ -166,7 +165,7 @@ body{
 }
 
 .botão-cardapio button{
-    height: 60px;
+    height: 80px;
     width: 300px;
     border-radius: 25px;
     color: #211003;
@@ -193,17 +192,185 @@ body{
     height: auto;
 }
 
-.frame4{
+.frame4 {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #838a46;
+    min-height: 100vh;
 }
 
-.titulo-home-torra{
-    color: #3b220f;
+.conteudo-torra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.img-torra{
+.titulo-home-torra {
+    margin-bottom: 80px;
+    color: #3b220f;
+    font-size: 50px;
+}
+
+.imagem-torra {
+    width: 1000px; /* Ajusta o tamanho da imagem das 4 torras */
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.texto-torra {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Espaçamento entre as torras */
+    margin-bottom: 30px;
+}
+
+.texto-torra span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.botão-torra button {
+    height: 60px;
+    width: 300px;
+    margin-top: 120px;
+    border-radius: 25px;
+    color: #211003;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #e5d19f;
+    border: none;
+    cursor: pointer;
+}
+
+.botão-torra button:hover {
+    background-color: #d4c28a;
+}
+
+.frame5 {
+    background-color: #000000; 
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.fim-conteudo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
     width: 100%;
+    height: 100%;
+}
+
+.txt-fim h1 {
+    color: #d7b381;
+    font-size: 70px;
+    white-space: nowrap;
+}
+
+.Imagem-fim {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.Imagem-fim img {
+    max-width: 500px;
+    height: auto;
+    margin: 0 20px;
+    padding: 0;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #4e2e1d; /* Marrom escuro */
+    padding: 40px 20px;
+    text-align: center;
+}
+  
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+  
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+  
+.footer-nav ul {
+    list-style: none;
+    margin: 20px 0;
+}
+  
+.footer-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+  
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #d2b48c;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+  
+.footer-nav ul li a:hover {
+    color: #fff;
+}
+  
+.social-icons {
+    margin: 20px 0;
+}
+  
+.social-icons a {
+    margin: 0 10px;
+}
+  
+.social-icons a img {
+    width: 30px;
+    filter: brightness(0) invert(1); /* Deixa os ícones branquinhos */
+    transition: 0.3s;
+}
+  
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+  
+.whatsapp-button {
+    margin: 30px 0;
+}
+  
+.whatsapp-button a {
+    background-color: #f5e1b5;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: #4e2e1d;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+  
+.whatsapp-button a img {
+    width: 20px;
+}
+  
+.whatsapp-button a:hover {
+    background-color: #e0c98a;
+}
+  
+.copyright {
+    font-size: 14px;
+    color: #c0a97d;
+    margin-top: 20px;
 }
