@@ -16,45 +16,42 @@ body{
     background-color: #3b220f; /* cor da faixa */
     width: 100%;
     color: rgb(10, 9, 9); /* Cor da fonte na faixa */
-    padding: 0.1em; /*Tamanho da faixa*/
 }
 
 /* Posicionamento das tags dentro do navegador */
 .nav-web{
-    max-width: 2500px; /* ajuste da posição dentro do nav */
-    margin: 0 auto; /* alinhamento da posição */
+    margin: 0 ; /* alinhamento da posição */
     display: flex; /* ele torna os elementos dentro do nav flexivel com sua mediada */
     justify-content: space-between; /* cria espaço entre elementos */
     align-items: center; /* alinhamento dos elementos */
-    padding: 0 2rem;
+    padding: 0 20px;
 }
 
 /* Posicionamento das tags dentro do navegador no lado esquerdo */
 .left {
     display: flex;
     align-items: center;
-    gap: 2rem; /* espaço entre logo e menu principal */
+    gap: 20px; /* espaço entre logo e menu principal */
   }
 
 /* tamanho da logo */
 .logo{
-    width: 140px;
-    height: 130px;
+    width: 300px;
+    height: 150px;
     border-radius: 50%;
     margin-right: 2em;
 }
 
 /* Posocionamento do texto dentro do navegador */
-.nav-list, .list-rigth{
+.nav-list, .list-right{
     list-style: none; /* tira personalização do estilo da lista */
     display: flex;
     gap: 2rem;
-    margin: 0;
-    padding: 0;
 }
 
 /*Formatação do texto debtro do nav */
-.nav-list a, .list-rigth a{
+.nav-list a, .list-right a{
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem; /* tamanho da fonte */
@@ -65,16 +62,8 @@ body{
     height: auto;
     width: 100%;
     display: block;
-    margin: 0;
-    padding: 0;
-    border: none;
 }
 
-.frame1, .frame2 .frame3{
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 .frame2 {
     background-color: #000000; 
@@ -232,48 +221,55 @@ body{
     color: white;
 }
 
-.botão-torra button {
-    height: 60px;
+.botao-link button {
+    height: 80px;
     width: 300px;
-    margin-top: 120px;
     border-radius: 25px;
     color: #211003;
     font-size: 20px;
     font-weight: bold;
     background-color: #e5d19f;
-    border: none;
-    cursor: pointer;
+    text-decoration: none;
 }
-
-.botão-torra button:hover {
-    background-color: #d4c28a;
+  
+.botao-link:visited {
+    color: #211003;
 }
+  
+  
 
 .frame5 {
     background-color: #000000; 
     min-height: 40vh;
     display: flex;
-    justify-content: center;
     padding: 0px 20px;
     font-family: Arial, sans-serif;
 }
 
 .fim-conteudo {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     max-width: 1200px;
     width: 100%;
     height: 100%;
+    gap: 90px;
+}
+
+.txt-fim{
+    display: flex;
+    text-align: left;
 }
 
 .txt-fim h1 {
     color: #d7b381;
-    font-size: 70px;
+    font-size: 90px;
     white-space: nowrap;
 }
 
 .Imagem-fim {
     width: 100%;
+    margin: 0,20px;
     display: flex;
     justify-content: flex-end;
 }
@@ -282,14 +278,14 @@ body{
 .Imagem-fim img {
     max-width: 500px;
     height: auto;
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 0;
     border: none;
     margin-bottom: 20px;
 }
 
 .footer {
-    background-color: #4e2e1d; /* Marrom escuro */
+    background-color: #3b220f; /* Marrom escuro */
     padding: 40px 20px;
     text-align: center;
 }

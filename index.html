@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link para acessar o css da pagina web-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>Home Unibucks</title>
 </head>
 
@@ -16,49 +16,49 @@
         
       <!-- Navegador com os links das paginas-->
       <nav class="nav-web" aria-label="Navegação Principal">
-      <!-- Divisor do espaço que os links estão posicionado-->
-      <div class="left">
-        <!-- Logo com link de voltar a pagina home-->
-        <a href="index.html" target="_blank">
-          <img class="logo" src="./img/logo.jpg">
-        </a>
-            
-            <!-- Lista não ordenanda para organizar os links ao lado esquerdo das paginas-->
-        <ul class="nav-list">
+        <!-- Divisor do espaço que os links estão posicionado-->
+        <div class="left">
+          <!-- Logo com link de voltar a pagina home-->
+          <a href="index.html">
+            <img class="logo" src="./img/logo.jpg">
+          </a>
+              
+              <!-- Lista não ordenanda para organizar os links ao lado esquerdo das paginas-->
+          <ul class="nav-list">
+              <li>
+                <a href="index.html"> Home </a>
+              </li>
+              <li>
+                <a href="#Sobre Nós">Sobre Nós</a>
+              </li>
+              <li>
+                <a href="#Cardapio">Cardapio</a>
+              </li>
+              <li>
+                <a href="#Contatos">Contatos</a>
+              </li>
+          </ul>
+        </div>
+          <ul class="list-right">
+          <!-- Lista não ordenanda para organizar os links ao lado direito das paginas-->
             <li>
-              <a href="index.html"> Home </a>
+              <a href="loc.html">Unidade</a>
             </li>
             <li>
-              <a href="#Sobre Nós">Sobre Nós</a>
+              <a href="#Login">Login</a>
             </li>
-            <li>
-              <a href="#Cardapio">Cardapio</a>
-            </li>
-            <li>
-              <a href="#Contatos">Contatos</a>
-            </li>
-        </ul>
-      </div>
-        <ul class="list-rigth">
-        <!-- Lista não ordenanda para organizar os links ao lado direito das paginas-->
-          <li>
-            <a href="#Unidade">Unidade</a>
-          </li>
-          <li>
-            <a href="#Login">Login</a>
-          </li>
-        </ul>
+          </ul>
       </nav>
 
     </header>
     <main>
       <!-- Conteudo da pagina home que estou dividindo por seções-->
-      <section class="frame1">
+      <div class="frame1">
           <!-- primeira parte com a seção de apresentação-->
           <img src="/img/inicio.jpg" class="img1">
-      </section>
+      </div>
 
-      <section class="frame2">
+      <div class="frame2">
         <div class="cont">
           <!-- segunda parte-->
           <div class="texto">
@@ -70,9 +70,9 @@
               <img src="img/inico-pt_meio-removebg-preview.png" class="img2">
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="frame3">
+      <div class="frame3">
           <div class="apresentação-cardapio">
             
             <div class="titulo-text-cardapio">
@@ -96,7 +96,7 @@
           <div class="img-home-card">
               <img src="img/inicio_cardapio.jpg" >
           </div>
-      </section>
+        </div>
 
       <div class="frame4">
         <div class="conteudo-torra">
@@ -112,8 +112,9 @@
           </div>
       
           <div class="botão-torra">
-            <button>Saiba Mais</button>
+            <a href="torra.html" class="botao-link"><button>Saiba Mais</button></a>
           </div>
+          
         </div>
       </div>
       
@@ -135,7 +136,7 @@
     
         <nav class="footer-nav">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Sobre Nós</a></li>
             <li><a href="#">Cardápio</a></li>
             <li><a href="#">Contato</a></li>
