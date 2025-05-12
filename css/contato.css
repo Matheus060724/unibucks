@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fbf4e2;
+}
+
+.texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.texto h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #211003;
+    line-height: 70px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.botao-contato{
+    margin: 0 90px 0 90px;
+}
+
+.botao-contato button{
+    width: 550px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: #9c5a26;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #3b220f;
+    padding: 40px 20px;
+    text-align: center;
+}
+  
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+  
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+  
+.footer-nav ul {
+    list-style: none;
+    margin: 20px 0;
+}
+  
+.footer-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+  
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #845e39;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+  
+.footer-nav ul li a:hover {
+    color: #fff;
+}
+  
+.social-icons {
+    margin: 20px 0;
+}
+  
+.social-icons a {
+    margin: 0 10px;
+}
+  
+.social-icons a img {
+    width: 30px;
+    filter: brightness(0) invert(1); 
+    transition: 0.3s;
+}
+  
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+  
+.whatsapp-button {
+    margin: 30px 0;
+}
+  
+.whatsapp-button a {
+    background-color: #f5e1b5;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: #4e2e1d;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+  
+.whatsapp-button a img {
+    width: 20px;
+}
+  
+.whatsapp-button a:hover {
+    background-color: #e0c98a;
+}
+  
+.copyright {
+    font-size: 20px;
+    color: #845e39;
+    margin-top: 20px;
+}

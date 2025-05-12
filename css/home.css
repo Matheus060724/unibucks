@@ -1,40 +1,34 @@
-/* elementos para borda da pagina */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /*Bordas arredondas na pagina*/
+    box-sizing: border-box;
 }
 
-/* elementos para pagina inteira */
 body{
-    font-family: Arial, Helvetica, sans-serif; /*tippo de fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
 }
 
-
-/* formatação do tamanho e cor do navegador */
 .header-nav{
-    background-color: #3b220f; /* cor da faixa */
+    background-color: #3b220f;
     width: 100%;
-    color: rgb(10, 9, 9); /* Cor da fonte na faixa */
+    color: rgb(10, 9, 9);
 }
 
-/* Posicionamento das tags dentro do navegador */
 .nav-web{
-    margin: 0 ; /* alinhamento da posição */
-    display: flex; /* ele torna os elementos dentro do nav flexivel com sua mediada */
-    justify-content: space-between; /* cria espaço entre elementos */
-    align-items: center; /* alinhamento dos elementos */
+    margin: 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
     padding: 0 20px;
 }
 
-/* Posicionamento das tags dentro do navegador no lado esquerdo */
 .left {
     display: flex;
     align-items: center;
-    gap: 20px; /* espaço entre logo e menu principal */
+    gap: 20px;
   }
 
-/* tamanho da logo */
 .logo{
     width: 300px;
     height: 150px;
@@ -42,87 +36,30 @@ body{
     margin-right: 2em;
 }
 
-/* Posocionamento do texto dentro do navegador */
 .nav-list, .list-right{
-    list-style: none; /* tira personalização do estilo da lista */
+    list-style: none;
     display: flex;
     gap: 2rem;
 }
 
-/*Formatação do texto debtro do nav */
 .nav-list a, .list-right a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem; /* tamanho da fonte */
+    font-size: 1.5rem; 
 }
 
-/* tamanho da imagem dentro da primeira seção */
 .img1{
     height: auto;
     width: 100%;
     display: block;
 }
 
-
-.frame2 {
-    background-color: #000000; 
-    min-height: 100vh;
+.frame2{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 0px 20px;
-    font-family: Arial, sans-serif;
-}
-
-.cont {
-    display: flex;
-    flex-direction: column; /* <<< AGORA EM COLUNA */
-    align-items: center; /* centraliza tudo */
-    justify-content: space-between; /* texto em cima, imagem embaixo */
-    text-align: center;
-    max-width: 1200px;
-    width: 100%;
-    height: 100%; /* ocupa altura total da frame */
-    padding: 40px 0; /* espaçamento interno */
-    gap: 30px; /* distância entre texto e imagem */
-}
-
-.texto h1{
-    color: rgb(43, 43, 43);
-    font-size: 5rem;
-    margin-bottom: 12px;
-}
-
-.texto h2 {
-    color: #3b220f;
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-  
-.texto p {
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.4;
-}
-
-.meio {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 10px;
-}
-
-
-.meio img {
-    max-width: 1000px;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    margin: 0;
-    padding: 0;
-    border: none;
+    height: 400px;
+    min-height: 100vh;
 }
 
 .frame3{
@@ -158,7 +95,7 @@ body{
     width: 300px;
     border-radius: 25px;
     color: #211003;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     background-color: #969e4b;
 }
@@ -203,7 +140,7 @@ body{
 }
 
 .imagem-torra {
-    width: 1000px; /* Ajusta o tamanho da imagem das 4 torras */
+    width: 1000px;
     height: auto;
     margin-bottom: 40px;
 }
@@ -211,7 +148,7 @@ body{
 .texto-torra {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Espaçamento entre as torras */
+    gap: 40px;
     margin-bottom: 30px;
 }
 
@@ -226,7 +163,7 @@ body{
     width: 300px;
     border-radius: 25px;
     color: #211003;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     background-color: #e5d19f;
     text-decoration: none;
@@ -285,7 +222,7 @@ body{
 }
 
 .footer {
-    background-color: #3b220f; /* Marrom escuro */
+    background-color: #3b220f;
     padding: 40px 20px;
     text-align: center;
 }
@@ -332,7 +269,7 @@ body{
   
 .social-icons a img {
     width: 30px;
-    filter: brightness(0) invert(1); /* Deixa os ícones branquinhos */
+    filter: brightness(0) invert(1);
     transition: 0.3s;
 }
   

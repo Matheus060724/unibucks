@@ -1,8 +1,7 @@
-/* elementos para borda da pagina */
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /*Bordas arredondas na pagina*/
+    box-sizing: border-box;
 }
 
 .img img{
