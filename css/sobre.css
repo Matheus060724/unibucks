@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #d7be81;
+  background-color: #fbf4e2;
 }
 
 .container {
@@ -49,16 +49,21 @@ body{
     max-width: 800px;
 }
 
-.sub-container{
+.sub-container {
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
 
-.img{
-  flex: 1;
+.equipe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
 }
 
-.img img{
-  width: 80%;
-  height: 100%;
+.equipe img{
+  max-width: 100%;
+  height: auto;
 }

@@ -233,7 +233,7 @@ body{
 }
   
 .logo {
-    width: 120px;
+    width: 150px;
     margin-bottom: 20px;
 }
   
@@ -251,7 +251,7 @@ body{
     text-decoration: none;
     color: #d2b48c;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     transition: 0.3s;
 }
   
@@ -259,23 +259,13 @@ body{
     color: #fff;
 }
   
-.social-icons {
-    margin: 20px 0;
-}
-  
-.social-icons a {
-    margin: 0 10px;
-}
   
 .social-icons a img {
-    width: 30px;
-    filter: brightness(0) invert(1);
-    transition: 0.3s;
+    width: 50px;
+    margin: 10px;
+
 }
   
-.social-icons a img:hover {
-    transform: scale(1.1);
-}
   
 .whatsapp-button {
     margin: 30px 0;
@@ -295,7 +285,7 @@ body{
 }
   
 .whatsapp-button a img {
-    width: 20px;
+    width: 50px;
 }
   
 .whatsapp-button a:hover {
